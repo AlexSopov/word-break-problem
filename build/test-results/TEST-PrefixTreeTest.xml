@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PrefixTreeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-06T06:31:23" hostname="AcerAspire" time="0.011">
+<testsuite name="PrefixTreeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-06T06:41:22" hostname="AcerAspire" time="0.008">
   <properties/>
-  <testcase name="TestPrefixTreeWordExistsWitNotFullWord" classname="PrefixTreeTest" time="0.01"/>
+  <testcase name="TestPrefixTreeWordExistsWitNotFullWord" classname="PrefixTreeTest" time="0.008"/>
   <testcase name="TestPrefixTreeInsertion" classname="PrefixTreeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

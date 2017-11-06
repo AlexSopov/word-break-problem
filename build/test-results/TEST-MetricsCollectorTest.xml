@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MetricsCollectorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-06T06:41:19" hostname="AcerAspire" time="3.01">
+  <properties/>
+  <testcase name="MetricCollectorsReturnsNotEmptyVelues" classname="MetricsCollectorTest" time="1.008"/>
+  <testcase name="MetricCollectorGetsNotNegativeMemory" classname="MetricsCollectorTest" time="1.0"/>
+  <testcase name="MetricCollectorsGetsTimeCorrect" classname="MetricsCollectorTest" time="1.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
