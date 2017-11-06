@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a02a95-cbaa-482b-bbfb-6a0545bc01fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/circle.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codecov.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/usage/MetrcisCollector.class" afterPath="$PROJECT_DIR$/build/classes/main/usage/MetrcisCollector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/usage/Program.class" afterPath="$PROJECT_DIR$/build/classes/main/usage/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/WordBreakProblemSolverTest.class" afterPath="$PROJECT_DIR$/build/classes/test/WordBreakProblemSolverTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/WordsProviderTest.class" afterPath="$PROJECT_DIR$/build/classes/test/WordsProviderTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java" afterPath="$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/usage/Program.java" afterPath="$PROJECT_DIR$/src/main/java/usage/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WordsProviderTest.java" afterPath="$PROJECT_DIR$/src/test/java/WordsProviderTest.java" />
     </list>
     <ignored path="WordBreakProblemSolution.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +24,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/word-break$PrefixTreeTest_TestPrefixTreeInsertion.coverage" NAME="PrefixTreeTest.TestPrefixTreeInsertion Coverage Results" MODIFIED="1509949723859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -31,7 +39,59 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="word-break" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="word-break" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Tasks" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="build" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
+              </PATH_ELEMENT>
+            </PATH>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="word-break" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="Source Sets" />
+                <option name="myItemType" value="org.jetbrains.plugins.gradle.service.project.view.GradleViewContributor$SourceSetsNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -40,11 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/usage/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="69">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,22 +112,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="342">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="WordBreakProblemSolver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordBreakProblemSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1156">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +137,20 @@
       <file leaf-file-name="WordBreakProblemSolverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
+            <state relative-caret-position="511">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrefixTreeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PrefixTreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,9 +161,12 @@
       <file leaf-file-name="MetrcisCollector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +174,41 @@
       <file leaf-file-name="PrefixTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="646">
               <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrefixTreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordsProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordsProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordsProviderTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WordsProviderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -401,14 +510,15 @@
         <option value="$PROJECT_DIR$/src/main/java/solver/trie/PrefixTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/solver/trie/PrefixTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Program.java" />
-        <option value="$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java" />
         <option value="$PROJECT_DIR$/src/main/java/solver/WordBreakProblemSolver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WordsProviderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/solver/WordsProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/usage/Program.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WordsProviderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrefixTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/usage/Program.java" />
       </list>
     </option>
   </component>
@@ -450,9 +560,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -585,8 +692,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="word-break" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordBreakProblem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -607,9 +747,56 @@
       <recent name="D:\Studying\III_Cource\V_Semester\MTP\WordBreakProblem\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordBreakProblemSolverTest.WordBreakProblemTestGetPositions">
-    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.WordBreakProblem [build]">
+    <configuration default="false" name="PrefixTreeTest.TestPrefixTreeInsertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="word-break_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrefixTreeTest" />
+      <option name="METHOD_NAME" value="TestPrefixTreeInsertion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrefixTreeTest.TestPrefixTreeWordExistsWitNotFullWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="word-break_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PrefixTreeTest" />
+      <option name="METHOD_NAME" value="TestPrefixTreeWordExistsWitNotFullWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="usage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="MAIN_CLASS_NAME" value="usage.Program" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -623,88 +810,40 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WordsProviderTest.WordProviderGetsWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="word-break_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordsProviderTest" />
-      <option name="METHOD_NAME" value="WordProviderGetsWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+    <configuration default="false" name="WordBreakProblem [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="false" name="WordsProviderTest.WordProviderSortsBylength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="word-break_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordsProviderTest" />
-      <option name="METHOD_NAME" value="WordProviderSortsBylength" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="word-break_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordBreakProblemSolverTest" />
-      <option name="METHOD_NAME" value="WordBreakProblemTestIsWordBreaked" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="WordBreakProblemSolverTest.WordBreakProblemTestGetPositions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="word-break_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WordBreakProblemSolverTest" />
-      <option name="METHOD_NAME" value="WordBreakProblemTestGetPositions" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+    <configuration default="false" name="WordBreakProblem [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -952,19 +1091,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WordsProviderTest.WordProviderGetsWords" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WordsProviderTest.WordProviderSortsBylength" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WordBreakProblemSolverTest.WordBreakProblemTestGetPositions" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PrefixTreeTest.TestPrefixTreeInsertion" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PrefixTreeTest.TestPrefixTreeWordExistsWitNotFullWord" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Program" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.WordBreakProblem [assemble]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.WordBreakProblem [build]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WordBreakProblemSolverTest.WordBreakProblemTestGetPositions" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WordsProviderTest.WordProviderSortsBylength" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WordsProviderTest.WordProviderGetsWords" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Program" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.WordBreakProblem [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.WordBreakProblem [assemble]" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Program" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PrefixTreeTest.TestPrefixTreeWordExistsWitNotFullWord" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PrefixTreeTest.TestPrefixTreeInsertion" />
       </list>
     </recent_temporary>
   </component>
@@ -982,20 +1121,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestGetPositions - 2017.11.06 at 02h 07m 09s.xml">
+    <history-entry file="PrefixTreeTest_TestPrefixTreeInsertion - 2017.11.06 at 08h 28m 33s.xml">
+      <configuration name="PrefixTreeTest.TestPrefixTreeInsertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrefixTreeTest_TestPrefixTreeInsertion - 2017.11.06 at 08h 28m 46s.xml">
+      <configuration name="PrefixTreeTest.TestPrefixTreeInsertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrefixTreeTest_TestPrefixTreeWordExistsWitNotFullWord - 2017.11.06 at 08h 29m 28s.xml">
+      <configuration name="PrefixTreeTest.TestPrefixTreeWordExistsWitNotFullWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrefixTreeTest_TestPrefixTreeWordExistsWitNotFullWord - 2017.11.06 at 08h 29m 37s.xml">
+      <configuration name="PrefixTreeTest.TestPrefixTreeWordExistsWitNotFullWord" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestGetPositions - 2017.11.06 at 08h 24m 20s.xml">
       <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestGetPositions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestGetPositions - 2017.11.06 at 02h 07m 37s.xml">
-      <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestGetPositions" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestIsWordBreaked - 2017.11.06 at 01h 56m 27s.xml">
-      <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestIsWordBreaked - 2017.11.06 at 01h 57m 16s.xml">
-      <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestIsWordBreaked - 2017.11.06 at 01h 57m 23s.xml">
-      <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WordBreakProblemSolverTest_WordBreakProblemTestIsWordBreaked - 2017.11.06 at 01h 57m 44s.xml">
       <configuration name="WordBreakProblemSolverTest.WordBreakProblemTestIsWordBreaked" configurationId="JUnit" />
@@ -1015,7 +1154,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1024,14 +1163,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30456027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30456027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1042,6 +1181,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1106,6 +1246,61 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/usage/Program.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usage/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -1147,9 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144143">
           <caret line="8479" column="2" selection-start-line="8479" selection-start-column="0" selection-end-line="8479" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,21 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="609" column="13" selection-start-line="609" selection-start-column="13" selection-end-line="609" selection-end-column="13" />
-          <folding>
-            <element signature="e#24298#24299#0" expanded="false" />
-            <element signature="e#24363#24364#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#280#281#0" expanded="false" />
-            <element signature="e#344#345#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="51267" column="8" selection-start-line="51267" selection-start-column="0" selection-end-line="51267" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,12 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="287" column="0" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="false" />
-            <element signature="e#2966#2967#0" expanded="false" />
-            <element signature="e#11040#11204#0" expanded="false" />
-            <element signature="e#11203#11204#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,15 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordsProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,63 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WordsProviderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordBreakProblemSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="96" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/usage/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1336,9 +1438,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordsProviderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WordBreakProblemSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrefixTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/solver/trie/PrefixTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/solver/WordBreakProblemSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usage/MetrcisCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usage/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,17 +16,17 @@ public class Program {
             MetrcisCollector metrcisCollector = new MetrcisCollector();
             List<String> words = wordsProvider.getWords();
 
-            metrcisCollector.Start();
+            metrcisCollector.start();
             WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(words);
             System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(0));
-            metrcisCollector.End();
+            metrcisCollector.end();
             System.out.println(metrcisCollector.getMetricsString());
 
             words = wordsProvider.getWords();
-            metrcisCollector.Start();
+            metrcisCollector.start();
             WordBreakProblemSolver wordBreakProblemSolver2 = new WordBreakProblemSolver(words);
-            System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(1));
-            metrcisCollector.End();
+            System.out.println(wordBreakProblemSolver2.getBreakedWordAtPosition(1));
+            metrcisCollector.end();
             System.out.println(metrcisCollector.getMetricsString());
 
 
@@ -36,6 +36,5 @@ public class Program {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
     }
 }

@@ -15,9 +15,7 @@ public class WordsProviderTest {
             Assert.assertNotEquals(result.size(), 0);
 
 
-        } catch (IOException e) {
-            Assert.fail();
-        } catch (URISyntaxException e) {
+        } catch (IOException | URISyntaxException e) {
             Assert.fail();
         }
     }

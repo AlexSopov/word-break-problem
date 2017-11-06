@@ -34,6 +34,7 @@ public class WordBreakProblemSolverTest {
         data.add("jav");
         data.add("a");
         data.add("javajava");
+        data.add("javajavavm");
 
         try {
             WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(data);

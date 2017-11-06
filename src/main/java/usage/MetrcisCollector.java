@@ -3,12 +3,12 @@ package usage;
 public class MetrcisCollector {
     private long startTime, endTime, startMemory, endMemory;
 
-    public void Start() {
+    public void start() {
         startTime = System.currentTimeMillis();
         Runtime runtime = Runtime.getRuntime();
         startMemory = runtime.totalMemory() - runtime.freeMemory();
     }
-    public void End() {
+    public void end() {
         endTime = System.currentTimeMillis();
         Runtime runtime = Runtime.getRuntime();
         endMemory = runtime.totalMemory() - runtime.freeMemory();
@@ -19,9 +19,6 @@ public class MetrcisCollector {
     }
 
     public long getUsedMemory() {
-        Runtime runtime = Runtime.getRuntime();
-        runtime.gc();
-
         return endMemory - startMemory;
     }
 
