@@ -8,19 +8,16 @@ import java.util.List;
 
 public class WordBreakProblemSolver {
     private List<String> wordsForProblem;
-    private WordsProvider wordsProvider;
-    private PrefixTree trie;
+    private PrefixTree prefixTree;
 
-    public WordBreakProblemSolver(WordsProvider wordsProvider) throws IOException, URISyntaxException {
-        this.wordsProvider = wordsProvider;
-        this.wordsForProblem = wordsProvider.getWords();
+    public WordBreakProblemSolver(List<String> wordsForProblem) throws IOException, URISyntaxException {
+        this.wordsForProblem = wordsForProblem;
 
-        trie = new PrefixTree();
+        prefixTree = new PrefixTree();
         for (String word : wordsForProblem) {
-            trie.insert(word);
+            prefixTree.insert(word);
         }
     }
-
 
     /**
      * @param position
@@ -31,13 +28,13 @@ public class WordBreakProblemSolver {
      * @throws URISyntaxException
      */
     public String getBreakedWordAtPosition(int position) throws IOException, URISyntaxException {
-        List<String> sorterWords = wordsProvider.getWordsSortedByLengt();
+        wordsForProblem.sort((o1, o2) -> o1.length() - o2.length());
 
         int currentPosition = 0;
         String lastBreakedWord = null, currentWord;
 
-        for (int i = sorterWords.size() - 1; i >= 0; i--) {
-            currentWord = sorterWords.get(i);
+        for (int i = wordsForProblem.size() - 1; i >= 0; i--) {
+            currentWord = wordsForProblem.get(i);
 
             if (lastBreakedWord != null && currentWord.length() < lastBreakedWord.length()) {
                 currentPosition++;
@@ -56,7 +53,7 @@ public class WordBreakProblemSolver {
     }
 
 
-    private boolean isWordBreaked(String word, Boolean isEntireWord)
+    public boolean isWordBreaked(String word, Boolean isEntireWord)
     {
         int wordLength = word.length();
         if (wordLength == 0) {
@@ -69,7 +66,7 @@ public class WordBreakProblemSolver {
                 return false;
             }
 
-            if (trie.isWordExistsInTree(word.substring(0, i)) && isWordBreaked(word.substring(i, wordLength), false)) {
+            if (prefixTree.isWordExistsInTree(word.substring(0, i)) && isWordBreaked(word.substring(i, wordLength), false)) {
                 return true;
             }
         }

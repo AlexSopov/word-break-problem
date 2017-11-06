@@ -5,6 +5,7 @@ import solver.WordsProvider;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
@@ -13,15 +14,17 @@ public class Program {
             wordsProvider.getWords();
 
             MetrcisCollector metrcisCollector = new MetrcisCollector();
+            List<String> words = wordsProvider.getWords();
 
             metrcisCollector.Start();
-            WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(wordsProvider);
+            WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(words);
             System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(0));
             metrcisCollector.End();
             System.out.println(metrcisCollector.getMetricsString());
 
+            words = wordsProvider.getWords();
             metrcisCollector.Start();
-            WordBreakProblemSolver wordBreakProblemSolver2 = new WordBreakProblemSolver(wordsProvider);
+            WordBreakProblemSolver wordBreakProblemSolver2 = new WordBreakProblemSolver(words);
             System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(1));
             metrcisCollector.End();
             System.out.println(metrcisCollector.getMetricsString());
