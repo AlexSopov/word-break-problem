@@ -9,6 +9,11 @@ import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
+        getPerfomance(0);
+        getPerfomance(1);
+    }
+
+    private static void getPerfomance(int indexToSearch) {
         try {
             WordsProvider wordsProvider = new WordsProvider();
             wordsProvider.getWords();
@@ -18,22 +23,11 @@ public class Program {
 
             metrcisCollector.start();
             WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(words);
-            System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(0));
+            System.out.println(wordBreakProblemSolver.getBreakedWordAtPosition(indexToSearch));
             metrcisCollector.end();
             System.out.println(metrcisCollector.getMetricsString());
 
-            words = wordsProvider.getWords();
-            metrcisCollector.start();
-            WordBreakProblemSolver wordBreakProblemSolver2 = new WordBreakProblemSolver(words);
-            System.out.println(wordBreakProblemSolver2.getBreakedWordAtPosition(1));
-            metrcisCollector.end();
-            System.out.println(metrcisCollector.getMetricsString());
-
-
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (URISyntaxException e) {
+        } catch (IOException | URISyntaxException e) {
             e.printStackTrace();
         }
     }

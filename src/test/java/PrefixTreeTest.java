@@ -18,4 +18,13 @@ public class PrefixTreeTest {
 
         Assert.assertTrue(!prefixTree.isWordExistsInTree("jav"));
     }
+
+
+    @Test
+    public void TestPrefixTreeWithEmptyWord() {
+        PrefixTree prefixTree = new PrefixTree();
+        prefixTree.insert("java");
+
+        Assert.assertTrue(!prefixTree.isWordExistsInTree(""));
+    }
 }

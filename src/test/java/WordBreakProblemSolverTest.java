@@ -14,6 +14,7 @@ public class WordBreakProblemSolverTest {
         data.add("java");
         data.add("jav");
         data.add("a");
+        data.add("javavm");
 
         try {
             WordBreakProblemSolver wordBreakProblemSolver = new WordBreakProblemSolver(data);
@@ -21,7 +22,7 @@ public class WordBreakProblemSolverTest {
             Assert.assertTrue(wordBreakProblemSolver.isWordBreaked("java", true));
             Assert.assertTrue(!wordBreakProblemSolver.isWordBreaked("jav", true));
             Assert.assertTrue(!wordBreakProblemSolver.isWordBreaked("a", true));
-
+            Assert.assertTrue(!wordBreakProblemSolver.isWordBreaked("javavm", true));
         } catch (IOException | URISyntaxException e) {
             Assert.fail();
         }
